@@ -20,20 +20,20 @@ public class TasksController : ControllerBase
     }
 
     [HttpGet]
-    public async Task<ActionResult<List<TaskModel>>> ListAllTasks()
+    public async Task<ActionResult<List<TaskModel>>> ListAllTasks([FromQuery] string? filterOn, [FromQuery] string? filterQuery)
     {
-        List<TaskModel> tasks = await _taskRepository.ListAllTasks();
+        List<TaskModel> tasks = await _taskRepository.ListAllTasks(filterOn, filterQuery);
         return Ok(tasks);
     }
 
-    [HttpGet("{id}")]
+    [HttpGet("/{id}")]
     public async Task<ActionResult<TaskModel>> GetTaskById(int id)
     {
         // // Get data from data base
         TaskModel task = await _taskRepository.GetTaskById(id);
         
         
-        // // return Dtos
+        // return Dtos
         // var res = new TaskDTO
         // {
         //     Nome = task.Name,
@@ -57,8 +57,8 @@ public class TasksController : ControllerBase
 
         var res = new TaskDto
         {
-            Name = updatedTask.Name,
-            Description = updatedTask.Description
+            Nome = updatedTask.Name,
+            Descrição = updatedTask.Description
         };
         return Ok(res);
     }

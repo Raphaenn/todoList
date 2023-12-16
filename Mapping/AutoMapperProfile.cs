@@ -1,4 +1,5 @@
 using AutoMapper;
+using TodoList.Models;
 using TodoList.Models.Dtos;
 using TodoList.Models.Entity;
 
@@ -8,7 +9,9 @@ public class AutoMapperProfile : Profile
 {
     public AutoMapperProfile()
     {
-        CreateMap<TaskModel, TaskDto>();
+        CreateMap<TaskModel, TaskDto>().ForMember(x => x.Nome, opt => opt.MapFrom(x => x.Name)).ForMember(x => x.Descrição, opt => opt.MapFrom(x => x.Description));
+        
+        // CreateMap<UserModel, UserDto>();
     }
 }
 

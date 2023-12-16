@@ -26,6 +26,7 @@
 
     <ItemGroup>
       <Compile Remove="Models\AutoMaps\**" />
+      <Compile Remove="Mapping\AutoMapperUsers.cs" />
     </ItemGroup>
 
     <ItemGroup>

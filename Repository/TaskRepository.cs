@@ -15,9 +15,20 @@ public class TaskRepository : ITaskRepository
         _dbContext = tasksDbContext;
     }
     
-    public async Task<List<TaskModel>> ListAllTasks()
+    public async Task<List<TaskModel>> ListAllTasks(string? filterOn = null, string? filterQuery = null)
     {
-        return await _dbContext.Tasks.ToListAsync();
+        var tasks = _dbContext.Tasks.Include(u => u.User).AsQueryable();
+        
+        // filter tasks by name
+        if (string.IsNullOrWhiteSpace(filterOn) == false && string.IsNullOrWhiteSpace(filterQuery) == false)
+        {
+            if (filterOn.Equals("Name", StringComparison.OrdinalIgnoreCase))
+            {
+                tasks = tasks.Where(x => x.Name.Contains(filterQuery));
+            }
+        }
+
+        return await tasks.ToListAsync();
     }
 
     public async Task<TaskModel> GetTaskById(int id)
@@ -29,6 +40,12 @@ public class TaskRepository : ITaskRepository
     {
         await _dbContext.Tasks.AddAsync(task);
         await _dbContext.SaveChangesAsync();
+        return task;
+    }
+
+    public async Task<TaskModel> GetTaskByUser(int id)
+    {
+        TaskModel task = await _dbContext.Tasks.Include(u => u.User).FirstOrDefaultAsync(task => task.UserId ==  id);
         return task;
     }
 
