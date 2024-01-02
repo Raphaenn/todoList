@@ -6,9 +6,9 @@
 
 .vs
 
-/bin/Debug/net6.0
+/bin
 /obj
-.TaskSystem.db
+/TaskSystem.db
 
 # User-specific files
 *.suo
