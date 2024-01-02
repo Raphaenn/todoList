@@ -7,7 +7,7 @@
 .vs
 
 /bin
-./bin/Debug
+bin/Debug/net6.0
 ./obj
 /TaskSystem.db
 
