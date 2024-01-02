@@ -6,9 +6,9 @@
 
 .vs
 
-/bin
-/bin/Debug/net6.0
-/obj
+bin
+bin/Debug/net6.0
+obj
 TaskSystem.db
 
 # User-specific files
