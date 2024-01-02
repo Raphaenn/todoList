@@ -8,6 +8,8 @@
 /Users/raphaelneves/Developer/C#/TodoListApi/TodoList/bin/Debug/net6.0/AutoMapper.dll
 /Users/raphaelneves/Developer/C#/TodoListApi/TodoList/bin/Debug/net6.0/AutoMapper.Extensions.Microsoft.DependencyInjection.dll
 /Users/raphaelneves/Developer/C#/TodoListApi/TodoList/bin/Debug/net6.0/Humanizer.dll
+/Users/raphaelneves/Developer/C#/TodoListApi/TodoList/bin/Debug/net6.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll
+/Users/raphaelneves/Developer/C#/TodoListApi/TodoList/bin/Debug/net6.0/Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
 /Users/raphaelneves/Developer/C#/TodoListApi/TodoList/bin/Debug/net6.0/Microsoft.Data.Sqlite.dll
 /Users/raphaelneves/Developer/C#/TodoListApi/TodoList/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.dll
 /Users/raphaelneves/Developer/C#/TodoListApi/TodoList/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Abstractions.dll
@@ -17,6 +19,12 @@
 /Users/raphaelneves/Developer/C#/TodoListApi/TodoList/bin/Debug/net6.0/Microsoft.Extensions.Caching.Memory.dll
 /Users/raphaelneves/Developer/C#/TodoListApi/TodoList/bin/Debug/net6.0/Microsoft.Extensions.DependencyInjection.dll
 /Users/raphaelneves/Developer/C#/TodoListApi/TodoList/bin/Debug/net6.0/Microsoft.Extensions.DependencyModel.dll
+/Users/raphaelneves/Developer/C#/TodoListApi/TodoList/bin/Debug/net6.0/Microsoft.IdentityModel.Abstractions.dll
+/Users/raphaelneves/Developer/C#/TodoListApi/TodoList/bin/Debug/net6.0/Microsoft.IdentityModel.JsonWebTokens.dll
+/Users/raphaelneves/Developer/C#/TodoListApi/TodoList/bin/Debug/net6.0/Microsoft.IdentityModel.Logging.dll
+/Users/raphaelneves/Developer/C#/TodoListApi/TodoList/bin/Debug/net6.0/Microsoft.IdentityModel.Protocols.dll
+/Users/raphaelneves/Developer/C#/TodoListApi/TodoList/bin/Debug/net6.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+/Users/raphaelneves/Developer/C#/TodoListApi/TodoList/bin/Debug/net6.0/Microsoft.IdentityModel.Tokens.dll
 /Users/raphaelneves/Developer/C#/TodoListApi/TodoList/bin/Debug/net6.0/Microsoft.OpenApi.dll
 /Users/raphaelneves/Developer/C#/TodoListApi/TodoList/bin/Debug/net6.0/Refit.dll
 /Users/raphaelneves/Developer/C#/TodoListApi/TodoList/bin/Debug/net6.0/Refit.HttpClientFactory.dll
@@ -27,6 +35,7 @@
 /Users/raphaelneves/Developer/C#/TodoListApi/TodoList/bin/Debug/net6.0/Swashbuckle.AspNetCore.SwaggerGen.dll
 /Users/raphaelneves/Developer/C#/TodoListApi/TodoList/bin/Debug/net6.0/Swashbuckle.AspNetCore.SwaggerUI.dll
 /Users/raphaelneves/Developer/C#/TodoListApi/TodoList/bin/Debug/net6.0/System.Diagnostics.DiagnosticSource.dll
+/Users/raphaelneves/Developer/C#/TodoListApi/TodoList/bin/Debug/net6.0/System.IdentityModel.Tokens.Jwt.dll
 /Users/raphaelneves/Developer/C#/TodoListApi/TodoList/bin/Debug/net6.0/runtimes/alpine-x64/native/libe_sqlite3.so
 /Users/raphaelneves/Developer/C#/TodoListApi/TodoList/bin/Debug/net6.0/runtimes/linux-arm/native/libe_sqlite3.so
 /Users/raphaelneves/Developer/C#/TodoListApi/TodoList/bin/Debug/net6.0/runtimes/linux-arm64/native/libe_sqlite3.so
@@ -58,3 +67,12 @@
 /Users/raphaelneves/Developer/C#/TodoListApi/TodoList/obj/Debug/net6.0/TodoList.pdb
 /Users/raphaelneves/Developer/C#/TodoListApi/TodoList/obj/Debug/net6.0/TodoList.genruntimeconfig.cache
 /Users/raphaelneves/Developer/C#/TodoListApi/TodoList/obj/Debug/net6.0/ref/TodoList.dll
+/Users/raphaelneves/Developer/C#/TodoListApi/TodoList/bin/Debug/net6.0/Serilog.dll
+/Users/raphaelneves/Developer/C#/TodoListApi/TodoList/bin/Debug/net6.0/Serilog.AspNetCore.dll
+/Users/raphaelneves/Developer/C#/TodoListApi/TodoList/bin/Debug/net6.0/Serilog.Extensions.Hosting.dll
+/Users/raphaelneves/Developer/C#/TodoListApi/TodoList/bin/Debug/net6.0/Serilog.Extensions.Logging.dll
+/Users/raphaelneves/Developer/C#/TodoListApi/TodoList/bin/Debug/net6.0/Serilog.Formatting.Compact.dll
+/Users/raphaelneves/Developer/C#/TodoListApi/TodoList/bin/Debug/net6.0/Serilog.Settings.Configuration.dll
+/Users/raphaelneves/Developer/C#/TodoListApi/TodoList/bin/Debug/net6.0/Serilog.Sinks.Console.dll
+/Users/raphaelneves/Developer/C#/TodoListApi/TodoList/bin/Debug/net6.0/Serilog.Sinks.Debug.dll
+/Users/raphaelneves/Developer/C#/TodoListApi/TodoList/bin/Debug/net6.0/Serilog.Sinks.File.dll

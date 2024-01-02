@@ -7,11 +7,11 @@ namespace TodoList.Controllers
 {
     [Route("api/[controller]")] // entre colchete entre o nome da classe "userController" removendo o controler 
     [ApiController]
-    public class UserController : ControllerBase
+    public class userController : ControllerBase
     {
         private readonly IUserRepository _userRepository;
         
-        public UserController(IUserRepository userRepository)
+        public userController(IUserRepository userRepository)
         {
             _userRepository = userRepository;
         }

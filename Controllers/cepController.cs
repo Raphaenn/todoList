@@ -6,11 +6,11 @@ namespace TodoList.Controllers;
 
     [Route("/api/[controller]")]
     [ApiController]
-    public class CepController : ControllerBase
+    public class cepController : ControllerBase
     {
         private readonly IViaCepIntergration _viaCepIntegration;
         
-        public CepController(IViaCepIntergration viaCepIntegration)
+        public cepController(IViaCepIntergration viaCepIntegration)
         {
             _viaCepIntegration = viaCepIntegration;
         }
